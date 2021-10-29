@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>WebApi_HandsOn3</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.1" />
+  </ItemGroup>
+
+</Project>
